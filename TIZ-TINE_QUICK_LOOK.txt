@@ -1,0 +1,37 @@
+================================================================================
+💎 TIZ-TINE: Project Master Quick Look (v1.1)
+================================================================================
+
+[Project Goal]
+Build a premium character brand (TIZ-TINE) for worldwide short-form content markets.
+
+[Core Identity]
+- Name: TIZ-TINE (Humanoid Maltese Girl)
+- Style: Hip & Emotional Street Look
+- MANDATORY: Always wearing headphones/earphones (Signature Property)
+
+[Official Assets (Headset v1.1)]
+- Path: \assets\images\characters\v1.1_headset\
+  01. Street Wear (01_street.png)
+  02. Cozy Home (02_home.png)
+  03. Cafe Digging (03_cafe.png)
+  04. Rainy Mood (04_rain.png)
+  05. Library Focus (05_library.png)
+
+[Strategy Roadmap]
+1. View-based Ad Revenue
+2. Digital Assets (Stickers, Wallpapers, Lo-fi Sounds)
+3. Physical Merchandise & Brand Licensing
+
+[Operation Team]
+- Luna/Jadu: Music & Strategy
+- Youngja: Visual Design
+- Kodari/Gyeongsu: Technical & Security
+
+[Important Paths]
+- Strategy: \docs\planning\TIZ-TINE_MASTER_STRATEGY.md
+- Design Guide: \docs\design\TIZ-TINE_PROMPT_GUIDE.md
+
+Generated at: 2026-03-25
+Copyright (C) 2026 Connect AI LAB
+================================================================================

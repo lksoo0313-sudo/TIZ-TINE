@@ -1,0 +1,29 @@
+# Python / Venv
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+
+# Agent / Gemini Internal
+.agent/
+.gemini/
+.env
+.idea/
+.vscode/
+
+# Streamlit logs/cache
+.streamlit/config.toml
+.streamlit/secrets.toml
+
+# System / Logs
+*.log
+.DS_Store
+Thumbs.db
+
+# Project Assets (Big files)
+# assets/ # 필요에 따라 대용량 에셋 폴더는 제외할 수 있습니다.
