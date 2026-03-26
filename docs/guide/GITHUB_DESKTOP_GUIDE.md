@@ -1,35 +1,37 @@
-# TIZ-TINE 프로젝트 깃허브 동기화 가이드 (GitHub Desktop 사용법)
+# 🚀 Multi-Device Project Setup Guide (GitHub Desktop)
 
-이 가이드는 프로젝트 파일을 실시간으로 관리하고, 마치 개인용 클라우드 드라이브처럼 GitHub에 동기화하는 방법을 설명합니다.
-
----
-
-## 💡 주요 개념
-본 프로젝트는 사용자의 **로컬 D:\ 드라이브**에 위치해 있으며, **GitHub Desktop**을 통해 GitHub(원격 저장소)과 연결됩니다. 제가 이 폴더 내의 파일을 수정하면, GitHub Desktop이 변경 사항을 즉시 감지합니다.
-
-## 🚀 워크플로우 (연결 및 동기화)
-
-### 1단계: 로컬 폴더 연결 (최초 1회)
-1.  **GitHub Desktop**을 실행합니다.
-2.  상단 메뉴에서 `File` > `Add local repository...`를 선택합니다.
-3.  `Choose...` 버튼을 눌러 프로젝트 경로(`d:\Projects\티즈틴(TIZ-TINE)`)를 선택합니다.
-4.  `Add repository`를 클릭하여 고정합니다.
-
-### 2단계: 변경 사항 업로드 (Push)
-1.  제가 파일을 수정하거나 새로운 파일을 생성하면, GitHub Desktop의 왼쪽 패널인 **'Changes'** 탭에 해당 파일들이 나타납니다.
-2.  하단의 **Summary** 칸에 작업 내용을 간단히 적습니다 (예: "사업 실행 체크리스트 업데이트").
-3.  **'Commit to main'** 파란색 버튼을 클릭합니다 (내 컴퓨터에 저장).
-4.  상단 중앙의 **'Push origin'** 버튼을 클릭합니다 (GitHub 클라우드로 업로드).
-
-### 3단계: 다른 기기에서 가져오기 (Pull)
-*   노트북이나 다른 PC에서 최신 내용을 불러오고 싶을 때:
-*   상단의 **'Fetch origin'** 버튼을 누른 후, **'Pull origin'** 버튼이 활성화되면 클릭합니다.
+본 프로젝트를 새로운 컴퓨터(노트북 등)에 설정하고 동기화하는 방법을 안내합니다.
 
 ---
 
-## 🛠️ 현재 프로젝트 상태
-- **로컬 경로**: `d:\Projects\티즈틴(TIZ-TINE)`
-- **깃허브 주소**: `https://github.com/kslee02/TIZ-TINE.git`
-- **주요 브랜치**: `master` (또는 `main`)
+### **1. 깃허브 데스크탑 설치 📥**
+- [desktop.github.com](https://desktop.github.com/) 접속
+- **Download for Windows** 클릭 및 설치
 
-이 가이드를 따라 하시면 모든 작업물을 안전하게 백업하고 여러 기기에서 공동 작업하실 수 있습니다.
+### **2. 계정 로그인 및 인증 🔓**
+1. **File** -> **Options** -> **Accounts** 메뉴 선택
+2. **GitHub.com** 항목의 **Sign in** 클릭
+3. **Continue with Browser** 클릭 후 브라우저에서 로그인 완료
+   - *팁: 토큰을 직접 입력할 필요 없이 브라우저 인증만으로 연동됩니다.*
+
+### **3. 프로젝트 저장소 내려받기 (Clone) 🌐**
+1. **File** -> **Clone repository...** 선택
+2. **GitHub.com** 탭에서 `lksoo0313-sudo/TIZ-TINE` 검색 및 선택
+3. **Local Path**: 노트북의 저장 경로 지정 (예: `C:\Projects\TIZ-TINE`)
+4. **Clone** 버튼 클릭
+
+### **4. 브랜치 설정 확인 (중요!) 🚩**
+- 화면 중앙 상단의 **Current branch**가 반드시 **`main`**으로 설정되어 있는지 확인하세요.
+- 자료가 보이지 않는다면 브랜치를 `main`으로 변경해 줍니다.
+
+---
+
+### **💡 실무 팁: 동기화 워크플로우**
+1. **작업 시작 전**: **`Fetch origin`** 클릭 (다른 컴퓨터에서 올린 최신 내용 가져오기)
+2. **작업 완료 후**:
+   - 좌측 하단에 작업 내용 요약 작성
+   - **`Commit to main`** 클릭
+   - **`Push origin`** 클릭 (서버에 업로드)
+
+---
+*Created by Connect AI LAB J-Team for TIZ-TINE Project*
