@@ -34,4 +34,4 @@ package.json
 pyproject.toml
 uv.lock
 *test_clip.mp3
-*.mp4
+# *.mp4 # TIZ-TINE 최종 결과물 공유를 위해 임시 허용
