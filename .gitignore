@@ -27,3 +27,11 @@ Thumbs.db
 
 # Project Assets (Big files)
 # assets/ # 필요에 따라 대용량 에셋 폴더는 제외할 수 있습니다.
+
+node_modules/
+package-lock.json
+package.json
+pyproject.toml
+uv.lock
+*test_clip.mp3
+*.mp4
