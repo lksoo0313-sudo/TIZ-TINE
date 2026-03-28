@@ -20,7 +20,7 @@ class TizTineMusicGenerator:
         if not os.path.exists(self.output_dir):
             os.makedirs(self.output_dir, exist_ok=True)
 
-    def generate_from_image(self, image_path, prompt, output_name="tiztine_music.mp3"):
+    def generate_from_image(self, image_path, prompt, output_name="tiztine_music.mp3", model="models/lyria-3-pro-preview"):
         """
         이미지에서 영감을 받은 음악 생성
         """
@@ -34,7 +34,7 @@ class TizTineMusicGenerator:
             image_data = f.read()
 
         response = self.client.models.generate_content(
-            model="lyria-3-clip-preview",
+            model=model,
             contents=[
                 types.Part.from_bytes(data=image_data, mime_type="image/png"),
                 prompt
